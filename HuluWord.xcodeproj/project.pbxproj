@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C513F66B2BD16EA900A059D5 /* HuluWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F66A2BD16EA900A059D5 /* HuluWordApp.swift */; };
+		C513F66D2BD16EA900A059D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F66C2BD16EA900A059D5 /* ContentView.swift */; };
+		C513F66F2BD16EAB00A059D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513F66E2BD16EAB00A059D5 /* Assets.xcassets */; };
+		C513F6722BD16EAB00A059D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513F6712BD16EAB00A059D5 /* Preview Assets.xcassets */; };
+		C513F67C2BD16EAB00A059D5 /* HuluWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F67B2BD16EAB00A059D5 /* HuluWordTests.swift */; };
+		C513F6862BD16EAB00A059D5 /* HuluWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F6852BD16EAB00A059D5 /* HuluWordUITests.swift */; };
+		C513F6882BD16EAB00A059D5 /* HuluWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F6872BD16EAB00A059D5 /* HuluWordUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C513F6782BD16EAB00A059D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C513F65F2BD16EA900A059D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C513F6662BD16EA900A059D5;
+			remoteInfo = HuluWord;
+		};
+		C513F6822BD16EAB00A059D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C513F65F2BD16EA900A059D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C513F6662BD16EA900A059D5;
+			remoteInfo = HuluWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C513F6672BD16EA900A059D5 /* HuluWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuluWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C513F66A2BD16EA900A059D5 /* HuluWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordApp.swift; sourceTree = "<group>"; };
+		C513F66C2BD16EA900A059D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C513F66E2BD16EAB00A059D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C513F6712BD16EAB00A059D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C513F6772BD16EAB00A059D5 /* HuluWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuluWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C513F67B2BD16EAB00A059D5 /* HuluWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordTests.swift; sourceTree = "<group>"; };
+		C513F6812BD16EAB00A059D5 /* HuluWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuluWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C513F6852BD16EAB00A059D5 /* HuluWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordUITests.swift; sourceTree = "<group>"; };
+		C513F6872BD16EAB00A059D5 /* HuluWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C513F6642BD16EA900A059D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F6742BD16EAB00A059D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F67E2BD16EAB00A059D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C513F65E2BD16EA900A059D5 = {
+			isa = PBXGroup;
+			children = (
+				C513F6692BD16EA900A059D5 /* HuluWord */,
+				C513F67A2BD16EAB00A059D5 /* HuluWordTests */,
+				C513F6842BD16EAB00A059D5 /* HuluWordUITests */,
+				C513F6682BD16EA900A059D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C513F6682BD16EA900A059D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C513F6672BD16EA900A059D5 /* HuluWord.app */,
+				C513F6772BD16EAB00A059D5 /* HuluWordTests.xctest */,
+				C513F6812BD16EAB00A059D5 /* HuluWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C513F6692BD16EA900A059D5 /* HuluWord */ = {
+			isa = PBXGroup;
+			children = (
+				C513F66A2BD16EA900A059D5 /* HuluWordApp.swift */,
+				C513F66C2BD16EA900A059D5 /* ContentView.swift */,
+				C513F66E2BD16EAB00A059D5 /* Assets.xcassets */,
+				C513F6702BD16EAB00A059D5 /* Preview Content */,
+			);
+			path = HuluWord;
+			sourceTree = "<group>";
+		};
+		C513F6702BD16EAB00A059D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C513F6712BD16EAB00A059D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C513F67A2BD16EAB00A059D5 /* HuluWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				C513F67B2BD16EAB00A059D5 /* HuluWordTests.swift */,
+			);
+			path = HuluWordTests;
+			sourceTree = "<group>";
+		};
+		C513F6842BD16EAB00A059D5 /* HuluWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C513F6852BD16EAB00A059D5 /* HuluWordUITests.swift */,
+				C513F6872BD16EAB00A059D5 /* HuluWordUITestsLaunchTests.swift */,
+			);
+			path = HuluWordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C513F6662BD16EA900A059D5 /* HuluWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C513F68B2BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWord" */;
+			buildPhases = (
+				C513F6632BD16EA900A059D5 /* Sources */,
+				C513F6642BD16EA900A059D5 /* Frameworks */,
+				C513F6652BD16EA900A059D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuluWord;
+			productName = HuluWord;
+			productReference = C513F6672BD16EA900A059D5 /* HuluWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C513F6762BD16EAB00A059D5 /* HuluWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C513F68E2BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWordTests" */;
+			buildPhases = (
+				C513F6732BD16EAB00A059D5 /* Sources */,
+				C513F6742BD16EAB00A059D5 /* Frameworks */,
+				C513F6752BD16EAB00A059D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C513F6792BD16EAB00A059D5 /* PBXTargetDependency */,
+			);
+			name = HuluWordTests;
+			productName = HuluWordTests;
+			productReference = C513F6772BD16EAB00A059D5 /* HuluWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C513F6802BD16EAB00A059D5 /* HuluWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C513F6912BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWordUITests" */;
+			buildPhases = (
+				C513F67D2BD16EAB00A059D5 /* Sources */,
+				C513F67E2BD16EAB00A059D5 /* Frameworks */,
+				C513F67F2BD16EAB00A059D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C513F6832BD16EAB00A059D5 /* PBXTargetDependency */,
+			);
+			name = HuluWordUITests;
+			productName = HuluWordUITests;
+			productReference = C513F6812BD16EAB00A059D5 /* HuluWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C513F65F2BD16EA900A059D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C513F6662BD16EA900A059D5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C513F6762BD16EAB00A059D5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C513F6662BD16EA900A059D5;
+					};
+					C513F6802BD16EAB00A059D5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C513F6662BD16EA900A059D5;
+					};
+				};
+			};
+			buildConfigurationList = C513F6622BD16EA900A059D5 /* Build configuration list for PBXProject "HuluWord" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C513F65E2BD16EA900A059D5;
+			productRefGroup = C513F6682BD16EA900A059D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C513F6662BD16EA900A059D5 /* HuluWord */,
+				C513F6762BD16EAB00A059D5 /* HuluWordTests */,
+				C513F6802BD16EAB00A059D5 /* HuluWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C513F6652BD16EA900A059D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513F6722BD16EAB00A059D5 /* Preview Assets.xcassets in Resources */,
+				C513F66F2BD16EAB00A059D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F6752BD16EAB00A059D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F67F2BD16EAB00A059D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C513F6632BD16EA900A059D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513F66D2BD16EA900A059D5 /* ContentView.swift in Sources */,
+				C513F66B2BD16EA900A059D5 /* HuluWordApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F6732BD16EAB00A059D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513F67C2BD16EAB00A059D5 /* HuluWordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513F67D2BD16EAB00A059D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513F6882BD16EAB00A059D5 /* HuluWordUITestsLaunchTests.swift in Sources */,
+				C513F6862BD16EAB00A059D5 /* HuluWordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C513F6792BD16EAB00A059D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C513F6662BD16EA900A059D5 /* HuluWord */;
+			targetProxy = C513F6782BD16EAB00A059D5 /* PBXContainerItemProxy */;
+		};
+		C513F6832BD16EAB00A059D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C513F6662BD16EA900A059D5 /* HuluWord */;
+			targetProxy = C513F6822BD16EAB00A059D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C513F6892BD16EAB00A059D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C513F68A2BD16EAB00A059D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C513F68C2BD16EAB00A059D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HuluWord/Preview Content\"";
+				DEVELOPMENT_TEAM = F274HZAT89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C513F68D2BD16EAB00A059D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HuluWord/Preview Content\"";
+				DEVELOPMENT_TEAM = F274HZAT89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C513F68F2BD16EAB00A059D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F274HZAT89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuluWord.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HuluWord";
+			};
+			name = Debug;
+		};
+		C513F6902BD16EAB00A059D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F274HZAT89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuluWord.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HuluWord";
+			};
+			name = Release;
+		};
+		C513F6922BD16EAB00A059D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F274HZAT89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuluWord;
+			};
+			name = Debug;
+		};
+		C513F6932BD16EAB00A059D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F274HZAT89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.HuluWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HuluWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C513F6622BD16EA900A059D5 /* Build configuration list for PBXProject "HuluWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C513F6892BD16EAB00A059D5 /* Debug */,
+				C513F68A2BD16EAB00A059D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C513F68B2BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C513F68C2BD16EAB00A059D5 /* Debug */,
+				C513F68D2BD16EAB00A059D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C513F68E2BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C513F68F2BD16EAB00A059D5 /* Debug */,
+				C513F6902BD16EAB00A059D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C513F6912BD16EAB00A059D5 /* Build configuration list for PBXNativeTarget "HuluWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C513F6922BD16EAB00A059D5 /* Debug */,
+				C513F6932BD16EAB00A059D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C513F65F2BD16EA900A059D5 /* Project object */;
+}
