@@ -1,0 +1,67 @@
+### macOS ###
+# General
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Xcode ###
+
+## User settings
+xcuserdata/
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+### Projects ###
+#*.xcodeproj
+#*.xcworkspace
+
+### Tuist derived files ###
+graph.dot
+Derived/
+
+## Cocoapods ##
+Pods/
+
+## Other ##
+build/
+.vscode/
+vendor/
+.bundle/
+*.podspec
+.bitrise.secrets.yml
+html/
+
+# Swift Package Manager
+.swiftpm/
+.package.resolved
+.build/
+
+hulu/Podfile.lock
