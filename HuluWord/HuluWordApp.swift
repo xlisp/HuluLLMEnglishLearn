@@ -11,7 +11,8 @@ import SwiftUI
 struct HuluWordApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            HuluWordSwiftUIView()
         }
     }
 }
