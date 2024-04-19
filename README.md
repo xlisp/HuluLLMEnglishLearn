@@ -3,6 +3,7 @@
 - [x] 可以点击单词翻译，或者调用三方的谷歌翻译
 - [ ] 集成大模型ChatGPT来口语训练：QA对话练习
 
-## demo
+## [视频演示](https://raw.githubusercontent.com/chanshunli/HuluLLMEnglishLearn/master/demo.MP4)
+* 请查看项目的demo.MP4文件
 ![](./demo.PNG)
 
