@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD67B8942BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */; };
 		BD68E2342BD3343400EC16DD /* HuluWordSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E2332BD3343400EC16DD /* HuluWordSwiftUIView.swift */; };
 		BD68E2392BD3351300EC16DD /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E2382BD3351300EC16DD /* UIApplication+Extensions.swift */; };
 		C513F66B2BD16EA900A059D5 /* HuluWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513F66A2BD16EA900A059D5 /* HuluWordApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseMarkdownNewWord.swift; sourceTree = "<group>"; };
 		BD68E2332BD3343400EC16DD /* HuluWordSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordSwiftUIView.swift; sourceTree = "<group>"; };
 		BD68E2382BD3351300EC16DD /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		C513F6672BD16EA900A059D5 /* HuluWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuluWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD67B8922BDB8AEC00C0B1ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		BD68E2372BD334DE00EC16DD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		C513F65E2BD16EA900A059D5 = {
 			isa = PBXGroup;
 			children = (
+				BD67B8922BDB8AEC00C0B1ED /* Utils */,
 				BD68E2372BD334DE00EC16DD /* Extensions */,
 				C513F6692BD16EA900A059D5 /* HuluWord */,
 				C513F67A2BD16EAB00A059D5 /* HuluWordTests */,
@@ -271,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD67B8942BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift in Sources */,
 				C513F66D2BD16EA900A059D5 /* ContentView.swift in Sources */,
 				BD68E2342BD3343400EC16DD /* HuluWordSwiftUIView.swift in Sources */,
 				BD68E2392BD3351300EC16DD /* UIApplication+Extensions.swift in Sources */,
