@@ -41,3 +41,40 @@ func ten2onehundred() -> String {
     UIPasteboard.general.string = numbers
     return numbers
 }
+
+func months() -> String {
+    let months = """
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+"""
+    UIPasteboard.general.string = months
+    return months
+}
+
+func days() -> String {
+    let days = """
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+"""
+    UIPasteboard.general.string = days
+    return days
+}
+
+// TODO: 常用短句,快速读.
+// 经典电影和名人采访短句快速读
+
