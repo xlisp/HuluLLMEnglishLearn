@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2989692BE8855300190663 /* NumberHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2989682BE8855300190663 /* NumberHelp.swift */; };
+		BD29896B2BE888BA00190663 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29896A2BE888BA00190663 /* Tools.swift */; };
 		BD67B8942BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */; };
 		BD68E2342BD3343400EC16DD /* HuluWordSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E2332BD3343400EC16DD /* HuluWordSwiftUIView.swift */; };
 		BD68E2392BD3351300EC16DD /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E2382BD3351300EC16DD /* UIApplication+Extensions.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD2989682BE8855300190663 /* NumberHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberHelp.swift; sourceTree = "<group>"; };
+		BD29896A2BE888BA00190663 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseMarkdownNewWord.swift; sourceTree = "<group>"; };
 		BD68E2332BD3343400EC16DD /* HuluWordSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluWordSwiftUIView.swift; sourceTree = "<group>"; };
 		BD68E2382BD3351300EC16DD /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				BD67B8932BDB8B2E00C0B1ED /* ParseMarkdownNewWord.swift */,
+				BD2989682BE8855300190663 /* NumberHelp.swift */,
+				BD29896A2BE888BA00190663 /* Tools.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -286,7 +292,9 @@
 				C513F66D2BD16EA900A059D5 /* ContentView.swift in Sources */,
 				BD68E2342BD3343400EC16DD /* HuluWordSwiftUIView.swift in Sources */,
 				BD68E2392BD3351300EC16DD /* UIApplication+Extensions.swift in Sources */,
+				BD29896B2BE888BA00190663 /* Tools.swift in Sources */,
 				C513F66B2BD16EA900A059D5 /* HuluWordApp.swift in Sources */,
+				BD2989692BE8855300190663 /* NumberHelp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
