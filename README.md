@@ -13,6 +13,7 @@
 - [ ] 基于ollama来fine-tuning自己语料使得回答更加接近你的词汇量，熟悉的表达方式和词汇，[[让单词有树可以生长]]
 - [ ] 手机截图里面的英语学习，OCR识别写到sqlite里面，可以从表里面提取出来要学习的单词的列表
 - [ ] 语音录音识别英语的现场出现的新单词提取出来学习
+- [ ] 输入文章，然后提取出来没有背过的单词，然后给你背！再直接一点就是输入URL，然后就直接iOS出来要背诵的单词列表！(readme的东西爬下来单词列表背一下！打印出来！=》langchain的英文描述，metagpt，llama的英文描述都要) => 修改hulu_word.swift输入输出都是单词数组就可以实现了, 然后input里面解析成为数组，还有emacs编辑已知记牢的单词列表，过滤一下就出来了。
 
 ## [iOS客户端视频演示](https://raw.githubusercontent.com/chanshunli/HuluLLMEnglishLearn/master/demo.MP4)
 * 请查看项目的demo.MP4文件
