@@ -15,6 +15,8 @@
 - [ ] 语音录音识别英语的现场出现的新单词提取出来学习
 - [ ] 输入文章，然后提取出来没有背过的单词，然后给你背！再直接一点就是输入URL，然后就直接iOS出来要背诵的单词列表！(readme的东西爬下来单词列表背一下！打印出来！=》langchain的英文描述，metagpt，llama的英文描述都要) => 修改hulu_word.swift输入输出都是单词数组就可以实现了, 然后input里面解析成为数组，还有emacs编辑已知记牢的单词列表，过滤一下就出来了。
 - [ ] iPhone上面跑起来Phi3微软手机上都可以跑起来的模型，本地做QA英文对话, 让过程变得强交互好玩，上下文中记忆单词(yilu)
+- [ ] 出入境的基本口语听力的列表库
+- [ ] 做外贸的基本口语听力的列表库： 价格，材质形容，基本寒暄。
 
 ## [iOS客户端视频演示](https://raw.githubusercontent.com/chanshunli/HuluLLMEnglishLearn/master/demo.MP4)
 * 请查看项目的demo.MP4文件
