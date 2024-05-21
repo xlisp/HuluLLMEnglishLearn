@@ -6,6 +6,7 @@
 - [x] 可以点击单词翻译，或者调用三方的谷歌翻译
 - [x] Markdown笔记中提取你的英语单词列表: `cat *.md | bb hulu_word.clj | sort` or `cat 浏览器文章.txt | bb hulu_word.clj | sort `
 - [x] 能用跑起来，更加快(合一)的时候，将hulu_word.clj改写成swift,knowed-word.txt保持到iOS的sqlite数据库里面
+- [x] 日常手机Google Meeting收集的cc字幕识别，然后GPT整理去重提取出来日常读了学习，#英语来源于日常 => google_meeting_cc_and_ocr.txt
 - [ ] 集成进来sqlite，可以保存点击背单词的次数，还有记录knowed-word.txt列表
 - [ ] 集成大模型ChatGPT来口语训练：QA对话练习, 从语音口语和听力着重入手
 - [ ] Chrome浏览器收集: ChatGPT使用QA记录，以及谷歌实用英语搜索, 英文网页选中标记Markdown=>ChromeZshrc
