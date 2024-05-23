@@ -1,3 +1,4 @@
+#!/bin/bash
 for f in `ls`; do tesseract $f $f ; done
 en_result=`cat *.txt | grep  -A5 'You:'  | grep -Ev "\-\-|^$|Oo|ok SC"`
 ## 用gpt4o整理一下学习的列表: 提示词 =>
