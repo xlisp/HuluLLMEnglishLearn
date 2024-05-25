@@ -11,6 +11,9 @@
 - [x] Markdown笔记中提取你的英语单词列表: `cat *.md | bb hulu_word.clj | sort` or `cat 浏览器文章.txt | bb hulu_word.clj | sort `
 - [x] 能用跑起来，更加快(合一)的时候，将hulu_word.clj改写成swift,knowed-word.txt保持到iOS的sqlite数据库里面
 - [x] 日常手机Google Meeting收集的cc字幕识别，然后GPT整理去重提取出来日常读了学习，#英语来源于日常 => google_meeting_cc_and_ocr.sh
+- [ ] 导入新概念英语文本1-4册的数据库，migration从网上下载导入数据库 =》可以搜索场景来读听力
+- [ ] 大的长的句子读了很难被记忆，变成简单短的句子描述，更加现实相关，有趣才容易被记忆，还有就是哲学化。
+- [ ] 单词和句子的记忆遗忘曲线的设计
 - [ ] 集成进来sqlite，可以保存点击背单词的次数，还有记录knowed-word.txt列表
 - [ ] 集成大模型ChatGPT来口语训练：QA对话练习, 从语音口语和听力着重入手 => 随时随地开发才能真正损之！无处不在渗透式学习 https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/ios => let LlmInference 。或者是phi2也能跑在移动端上面, 可以试试ollama跑在termux上面
 - [ ] Chrome浏览器收集: ChatGPT使用QA记录，以及谷歌实用英语搜索, 英文网页选中标记Markdown=>ChromeZshrc
