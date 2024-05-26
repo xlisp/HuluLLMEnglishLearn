@@ -2,7 +2,8 @@
 
 ## 设计原则
 * 和现实强相关,人类的进化就是来源于吃不饱但强相关生存的事情驱动的 =》 比如你在档口上班就是google meeting记录下来所有英文，然后你重复随时随地重复读; 比如刷的英文短剧视频，OCR下来整理出来学习列表
-* 随时随地开发改进App本身，量身定制为自己
+* 随时随地开发改进App本身，量身定制为自己, 让学习任何东西都变成可计算性的，可编程性的 => MMA计算论文思想
+* 小龙哲学化表达语言，中心线几个词配合演讲其它的意思: 大学时演讲的关键性语言突破
 
 ## 开发列表
 
@@ -12,6 +13,7 @@
 - [x] 能用跑起来，更加快(合一)的时候，将hulu_word.clj改写成swift,knowed-word.txt保持到iOS的sqlite数据库里面
 - [x] 日常手机Google Meeting收集的cc字幕识别，然后GPT整理去重提取出来日常读了学习，#英语来源于日常 => google_meeting_cc_and_ocr.sh
 - [x] 输入文章，然后过滤已知单词，然后给出未知单词的列表去给你背诵！=》适合于学习文章之前熟悉一些新的单词！=> 比如interviews问题的不熟悉单词是哪些，提取列表出来。=> hulu/hulu/Utils/ParseArticleNewWord.swift
+- [ ] 增加读一个单词，识别出来最近背的词，查一下字典
 - [ ] input images or take photo and ocr it, then do ParseArticleNewWord.swift 
 - [ ] 读了单词，可以点一下读一个句子，要背句子才行，不然记不住(lina)
 - [ ] 收集chatgpt使用英文的问题和返回的英语学习
