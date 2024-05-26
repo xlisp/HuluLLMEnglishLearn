@@ -13,6 +13,7 @@
 - [x] 日常手机Google Meeting收集的cc字幕识别，然后GPT整理去重提取出来日常读了学习，#英语来源于日常 => google_meeting_cc_and_ocr.sh
 - [x] 输入文章，然后过滤已知单词，然后给出未知单词的列表去给你背诵！=》适合于学习文章之前熟悉一些新的单词！=> 比如interviews问题的不熟悉单词是哪些，提取列表出来。=> hulu/hulu/Utils/ParseArticleNewWord.swift
 - [ ] input images or take photo and ocr it, then do ParseArticleNewWord.swift 
+- [ ] 读了单词，可以点一下读一个句子，要背句子才行，不然记不住(lina)
 - [ ] 收集chatgpt使用英文的问题和返回的英语学习
 - [ ] 收集谷歌搜索的提问和点击标记的英文句子学习
 - [ ] 收集谷歌翻译过的记录去学习
