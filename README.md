@@ -11,6 +11,9 @@
 - [x] Markdown笔记中提取你的英语单词列表: `cat *.md | bb hulu_word.clj | sort` or `cat 浏览器文章.txt | bb hulu_word.clj | sort `
 - [x] 能用跑起来，更加快(合一)的时候，将hulu_word.clj改写成swift,knowed-word.txt保持到iOS的sqlite数据库里面
 - [x] 日常手机Google Meeting收集的cc字幕识别，然后GPT整理去重提取出来日常读了学习，#英语来源于日常 => google_meeting_cc_and_ocr.sh
+- [ ] 收集chatgpt使用英文的问题和返回的英语学习
+- [ ] 收集谷歌搜索的提问和点击标记的英文句子学习
+- [ ] 收集谷歌翻译过的记录去学习
 - [ ] 输入文章，然后过滤已知单词，然后给出未知单词的列表去给你背诵！=》适合于学习文章之前熟悉一些新的单词！=> 比如interviews问题的不熟悉单词是哪些，提取列表出来。
 - [ ] 导入新概念英语文本1-4册的数据库，migration从网上下载导入数据库 =》可以搜索场景来读听力
 - [ ] 大的长的句子读了很难被记忆，变成简单短的句子描述，更加现实相关，有趣才容易被记忆，还有就是哲学化。
