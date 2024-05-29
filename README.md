@@ -16,9 +16,9 @@
 - [x] 输入文章，然后过滤已知单词，然后给出未知单词的列表去给你背诵！=》适合于学习文章之前熟悉一些新的单词！=> 比如interviews问题的不熟悉单词是哪些，提取列表出来。=> hulu/hulu/Utils/ParseArticleNewWord.swift
 - [x] 读了单词，可以点一下读一个句子，要背句子才行，不然记不住(lina)
 - [x] input images or take photo and ocr it, then do ParseArticleNewWord.swift 
-- [ ] 熟悉的单词列表，每个人都不一样，所以需要存入数据库，记得越多，自己的数据库越大，先验知识 ,这样分享出去jiefu也可以用！背自己不熟悉的单词，还有扫码可以背不熟悉的单词！
-- [ ] 增加读一个单词，识别出来最近背的词，查一下字典
-- [ ] 增加读一个单词，识别出来最近背的句子，Transformer 词袋模型-填空问题
+- [x] 熟悉的单词列表，每个人都不一样，所以需要存入数据库，记得越多，自己的数据库越大，先验知识 ,这样分享出去jiefu也可以用！背自己不熟悉的单词，还有扫码可以背不熟悉的单词！=> base hulunote knowed-words note's navs resolve this problem
+- [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
+- [ ] 增加voice读一个单词，识别出来最近背的句子，Transformer 词袋模型-填空问题
 - [ ] 收集chatgpt使用英文的问题和返回的英语学习
 - [ ] 收集谷歌搜索的提问和点击标记的英文句子学习
 - [ ] 收集谷歌翻译过的记录去学习
