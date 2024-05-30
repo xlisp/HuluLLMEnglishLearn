@@ -19,6 +19,8 @@
 - [x] 熟悉的单词列表，每个人都不一样，所以需要存入数据库，记得越多，自己的数据库越大，先验知识 ,这样分享出去jiefu也可以用！背自己不熟悉的单词，还有扫码可以背不熟悉的单词！=> base hulunote knowed-words note's navs resolve this problem
 - [x] 集成进来sqlite，记录knowed-word.txt列表
 - [x] 输入文章，然后提取出来没有背过的单词，然后给你背！再直接一点就是输入URL，然后就直接iOS出来要背诵的单词列表！(readme的东西爬下来单词列表背一下！打印出来！=》langchain的英文描述，metagpt，llama的英文描述都要) => 修改hulu_word.swift输入输出都是单词数组就可以实现了, 然后input里面解析成为数组，还有emacs编辑已知记牢的单词列表，过滤一下就出来了。
+- [x] OCR recorgnize support mutil tap on the ocr screen, because some website table or list documents or books need mutil line to ocr; and Add tap count.
+- [ ] when open the app, alert window: you not remember word list, you cant use list comps show it
 - [ ] get report , every day remember how many words: sql select to analyses is enough, no need spark or python lib some algorithms.
 - [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
 - [ ] 增加voice读一个单词，识别出来最近背的句子，Transformer 词袋模型-填空问题
