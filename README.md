@@ -20,6 +20,7 @@
 - [x] 集成进来sqlite，记录knowed-word.txt列表
 - [x] 输入文章，然后提取出来没有背过的单词，然后给你背！再直接一点就是输入URL，然后就直接iOS出来要背诵的单词列表！(readme的东西爬下来单词列表背一下！打印出来！=》langchain的英文描述，metagpt，llama的英文描述都要) => 修改hulu_word.swift输入输出都是单词数组就可以实现了, 然后input里面解析成为数组，还有emacs编辑已知记牢的单词列表，过滤一下就出来了。
 - [x] OCR recorgnize support mutil tap on the ocr screen, because some website table or list documents or books need mutil line to ocr; and Add tap count.
+- [x] 语音录音识别英语的现场出现的新单词提取出来学习
 - [ ] when open the app, alert window: you not remember word list, you cant use list comps show it
 - [ ] get report , every day remember how many words: sql select to analyses is enough, no need spark or python lib some algorithms.
 - [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
@@ -36,7 +37,6 @@
 - [ ] 基于你的英语笔记做RAG应用: 使用[LlamaIndex](https://github.com/run-llama/llama_index), 可以用英文提问你的笔记，你和笔记进行对话，然后这个QA列表就是你学习这篇文章的主要记录，可多次复用到其他地方
 - [ ] 基于ollama来fine-tuning自己语料使得回答更加接近你的词汇量，熟悉的表达方式和词汇，[[让单词有树可以生长]]
 - [ ] 手机截图里面的英语学习，OCR识别写到sqlite里面，可以从表里面提取出来要学习的单词的列表
-- [ ] 语音录音识别英语的现场出现的新单词提取出来学习
 - [ ] iPhone上面跑起来Phi3微软手机上都可以跑起来的模型，本地做QA英文对话, 让过程变得强交互好玩，上下文中记忆单词(yilu)
 - [ ] 出入境的基本口语听力的列表库
 - [ ] 做外贸的基本口语听力的列表库： 价格，材质形容，基本寒暄。
