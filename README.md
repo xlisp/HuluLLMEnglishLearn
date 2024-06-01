@@ -22,7 +22,7 @@
 - [x] OCR recorgnize support mutil tap on the ocr screen, because some website table or list documents or books need mutil line to ocr; and Add tap count.
 - [x] 语音录音识别英语的现场出现的新单词提取出来学习
 - [x] Image select upload get OCR recorgnize result, can support mutil select image to recorgnize to get recorgnize result list, the list can select to parse
-- [ ] when open the app, alert window: you not remember word list, you cant use list comps show it
+- [x] when open the app, alert window: you not remember word list, you cant use list comps show it
 - [ ] get report , every day remember how many words: sql select to analyses is enough, no need spark or python lib some algorithms.
 - [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
 - [ ] 增加voice读一个单词，识别出来最近背的句子，Transformer 词袋模型-填空问题
@@ -32,7 +32,7 @@
 - [ ] 导入新概念英语文本1-4册的数据库，migration从网上下载导入数据库 =》可以搜索场景来读听力 => 不是死的，而不是变成你生活的有机的一部分！=》李小龙：最重要的影响整个生活！而不是为了背单词而背单词！
 - [ ] 大的长的句子读了很难被记忆，变成简单短的句子描述，更加现实相关，有趣才容易被记忆，还有就是哲学化。
 - [ ] 单词和句子的记忆遗忘曲线的设计
-- [ ] 集成进来sqlite，可以保存点击背单词的speak次数
+- [ ] 可以保存点击背单词的speak次数: sqlite add column record click times
 - [ ] 集成大模型ChatGPT来口语训练：QA对话练习, 从语音口语和听力着重入手 => 随时随地开发才能真正损之！无处不在渗透式学习 https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/ios => let LlmInference 。或者是phi2也能跑在移动端上面, 可以试试ollama跑在termux上面
 - [ ] Chrome浏览器收集: ChatGPT使用QA记录，以及谷歌实用英语搜索, 英文网页选中标记Markdown=>ChromeZshrc
 - [ ] 基于你的英语笔记做RAG应用: 使用[LlamaIndex](https://github.com/run-llama/llama_index), 可以用英文提问你的笔记，你和笔记进行对话，然后这个QA列表就是你学习这篇文章的主要记录，可多次复用到其他地方
