@@ -23,6 +23,7 @@
 - [x] 语音录音识别英语的现场出现的新单词提取出来学习
 - [x] Image select upload get OCR recorgnize result, can support mutil select image to recorgnize to get recorgnize result list, the list can select to parse
 - [x] when open the app, alert window: you not remember word list, you cant use list comps show it
+- [ ] use datalog descript your brain understand the word model: relations & attribes => edges & path => bill RAG for GPT, you can ask logic question for your app
 - [ ] get report , every day remember how many words: sql select to analyses is enough, no need spark or python lib some algorithms.
 - [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
 - [ ] 增加voice读一个单词，识别出来最近背的句子，Transformer 词袋模型-填空问题
