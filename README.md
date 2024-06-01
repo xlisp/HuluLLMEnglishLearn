@@ -21,6 +21,7 @@
 - [x] 输入文章，然后提取出来没有背过的单词，然后给你背！再直接一点就是输入URL，然后就直接iOS出来要背诵的单词列表！(readme的东西爬下来单词列表背一下！打印出来！=》langchain的英文描述，metagpt，llama的英文描述都要) => 修改hulu_word.swift输入输出都是单词数组就可以实现了, 然后input里面解析成为数组，还有emacs编辑已知记牢的单词列表，过滤一下就出来了。
 - [x] OCR recorgnize support mutil tap on the ocr screen, because some website table or list documents or books need mutil line to ocr; and Add tap count.
 - [x] 语音录音识别英语的现场出现的新单词提取出来学习
+- [x] Image select upload get OCR recorgnize result, can support mutil select image to recorgnize to get recorgnize result list, the list can select to parse
 - [ ] when open the app, alert window: you not remember word list, you cant use list comps show it
 - [ ] get report , every day remember how many words: sql select to analyses is enough, no need spark or python lib some algorithms.
 - [ ] 增加voice读一个单词，识别出来最近背的词，查一下字典
